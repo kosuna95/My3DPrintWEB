@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Print Service</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script defer src="../js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../media/logo.png" alt="Logo 3DPrint">
+      <h1>Impresiones 3D a medida</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h2>Bienvenido a 3DPrint by KOTechnologies</h2>
+      <p>Servicio profesional de impresiones 3D.</p>
+    </section>
+
+    <!-- Productzone -->
+    <section id="productos" class="productos">
+      <h2>Lo del momento!:</h2>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="../media/product1.jpg" alt="Mas vendido">
+          <h3>Modelo más vendido</h3>
+          <p>Macetita de Groot</p>
+        </div>
+        <div class="product-card">
+          <img src="../media/product2.jpg" alt="Mas deseado">
+          <h3>Modelo más deseado</h3>
+          <p>Pokebola de alta precisión</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Multizone -->
+    <section id="multimedia" class="multimedia">
+      <h2>Chequea estos productos!</h2>
+      <div class="gallery">
+        <img src="../media/product1.jpg" alt="Mas vendido">
+        <img src="../media/product2.jpg" alt="Mas deseado">
+        <img src="../media/3.jpeg" alt="Miniaturas">
+      </div>
+
+      <h2>Mira nuestro Sable láser!</h2>
+      <div class="video-file">
+        <video controls>
+          <source src="../media/5.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <h2>Mira estas opciones rápidas y fáciles!</h2>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/fU8M_q6lsLI"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <h2>¿Dónde podrás encontrarnos?:</h2>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5213.262501757223!2d-58.38578361951213!3d-34.60038000493486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac630121623%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sar!4v1748475242257!5m2!1ses-419!2sar"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Contactzone con formspree -->
+    <section id="contacto" class="contacto">
+      <h2>¡Contáctanos para hacer realidad tus proyectos!</h2>
+      <form action="https://formspree.io/f/xgvkgrda" method="POST">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 3DPrint by KOTechnologies. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
